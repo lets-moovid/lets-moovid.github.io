@@ -41,20 +41,50 @@
         </div>
     </div>
 
+    <!-- 
     <div class="bibtex_structure">
         <div class="group year" extra="DESC number">
-            <h3 class="title w3-teal"></h3>
+            <h3 class="title w3-text-teal"></h3>
             <div style="padding-bottom:6px;"></div>
             <div class="sort journal" extra="DESC string">
                 <div class="templates"></div>
             </div>
         </div>
     </div>
+    -->
+    <div class="bibtex_structure">
+        <div class="sections bibtextypekey">
+          <div class="section article">
+            <h1>Refereed Articles</h1>
+            <div class="sort year" extra="ASC number">
+              <div class="templates"></div>
+            </div>
+          </div>
+          <div class="section book">
+            <h1>Books</h1>
+            <div class="sort year" extra="ASC number">
+              <div class="templates"></div>
+            </div>
+          </div>
+          <div class="section inproceedings">
+            <h1>Conference and Workshop Papers</h1>
+            <div class="sort year" extra="ASC number">
+              <div class="templates"></div>
+            </div>
+          </div>
+          <div class="section misc|phdthesis|mastersthesis|bachelorsthesis|techreport">
+            <h1>Other Publications</h1>
+            <div class="sort year" extra="ASC number">
+              <div class="templates"></div>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <!-- !PAGE CONTENT! -->
     <div class="w3-container w3-padding" style="max-width:1200px;margin:auto">
         <div id="bibtex_display">
-            <div class="if bibtex_template" style="display: none;">
+            <div class="if bibtex_template" style="display:none;">
                 <ul class="w3-ul"> 
                     <li class="w3-padding-small">
                         <div class="if author">
