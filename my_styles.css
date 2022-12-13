@@ -17,8 +17,15 @@
 .w3-text-myDarkRed,.w3-hover-text-myDarkRed:hover {color:#a65852!important}
 .w3-text-myDarkGreen,.w3-hover-text-myDarkGreen:hover {color:#343c24!important}
 
+.w3-hover-greyscale-null:hover,.w3-hover-grayscale-null:hover{filter:grayscale(0%)}
+
 ul {
-list-style-type: none;
-margin: 0;
-padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: myDarkRed;
+  text-decoration: none;
 }
