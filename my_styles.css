@@ -19,10 +19,14 @@
 
 .w3-hover-greyscale-null:hover,.w3-hover-grayscale-null:hover{filter:grayscale(0%)}
 
-ul {
+ul.a {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+li + li {
+  margin-top: 10px;
 }
 
 a {
